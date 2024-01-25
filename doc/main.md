@@ -1,39 +1,24 @@
-Short description....
+# Tecto Stress
 
-# Table of content
-1. What is Tecto-Stress
-    - Tecto-Stress is an up-to-date web application that runs in the browser whose goal is to calculate the tectonic stress tensor in the upper crust from an extensive list of geologic and seismologic data sets.
-    - You can be calculate the stress tensor solution in interactive or automatic modes
-    - You can perform a full statistical analysis    
-       
-2. Types of data
+<p align="center">
+    <a href="https://xaliphostes.github.io/tecto-stress/">
+        <img src="../media/screenshot.png" width="300">
+    </a>
+</p>
 
-    - [Brittle Deformation Microstructures](./dataTypes/brittleDeformation/brittleDeformation.md)
+<p align="center">
+        <a href="https://xaliphostes.github.io/tecto-stress/"><b>Launch the app...</b></a>
+</p>
 
-    - [Drill Core Data](./dataTypes/drillCoreData/drillCoreData.md)
 
-    - [Focal mechanisms](./dataTypes/focalMechanisms/focalMechanisms.md)
+[Table of content](./toc.md)
 
-3. Stress Tensor Analysis
+</br>
+Tecto-Stress is a web application that enables tectonic stress inversion by utilizing various types of data such as fault striae, fracture orientation..., and combining them to better constrain the inversion.
 
-    - [Interactive Mode (recommended)](./InteractiveMode.MD)
 
-    - [Automatic Mode](./InteractiveMode.MD)
+This webapp relies on the library [@alfredicus/stress](https://github.com/alfredicus/stress), also developed by 
+- [Alfredicus](https://github.com/alfredicus) from [Geoscience-Montpellier](http://www.gm.univ-montp2.fr/)
+- [Xaliphostes](https://github.com/xaliphostes) from [YouWol](youwol.com).
 
-4. Graphic and Analytic Tools
-
-    - [Stereographic Projection](./tools/stereographicProjection.md)
-
-    - [Flow Lines in the Unit Sphere](./tools/flowLines.md)
-
-    - [Mohr Circle Diagram](./tools/MohrCircle.md)
-
-    - [Histogram of Angular Misfits](./tools/histogramAngularMisfit.md)
-
-    - [Statistical Analysis](./tools/statisticalAnalysis.md)
-
-    
-
-   
-    
-    
+Read the [documentation online](./doc/main.md)
