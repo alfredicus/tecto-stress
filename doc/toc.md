@@ -14,6 +14,16 @@
 
     - [Focal mechanisms](./dataTypes/focalMechanisms/focalMechanisms.md)
 
+3. File formats
+
+    - [CSV (Excel)]()
+
+    - [TXT]()
+
+    - [FieldMove Clino]()
+
+4. [Command line execution](./cmd-usage.md)
+
 4. Stress Tensor Inverse Analysis
 
     - [Simplifying Assumptions](./simplifyingAssumptions.MD)
@@ -33,5 +43,8 @@
     - [Histogram of Angular Misfits](./tools/histogramAngularMisfit.md)
 
     - [Statistical Analysis](./tools/statisticalAnalysis.md)
+
+6. [Contact and feedback](./contact-feedback.md)
+
 
 6. [Biblio]()
